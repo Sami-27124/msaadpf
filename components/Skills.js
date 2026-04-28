@@ -7,7 +7,7 @@ const skills = [
   { name: 'C Language', icon: SiC, color: '#A8B9CC' },
   { name: 'C++', icon: SiCplusplus, color: '#00599C' },
   { name: 'C#', icon: FaCode, color: '#239120' },
-  { name: 'Python', icon: FaPython, color: '#239120' },
+  { name: 'Python', icon: FaPython },
   { name: 'HTML', icon: SiHtml5, color: '#E34F26' },
   { name: 'CSS', icon: FaCss3Alt, color: '#1572B6' },
   { name: 'JavaScript', icon: SiJavascript, color: '#F7DF1E' },
