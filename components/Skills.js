@@ -1,7 +1,7 @@
 "use client";
 import { motion } from 'framer-motion';
 import { SiC, SiCplusplus, SiHtml5, SiJavascript, SiTailwindcss, SiMongodb, SiExpress, SiReact, SiNodedotjs, SiNextdotjs, SiSupabase, SiGithub, SiPhp, SiWordpress } from 'react-icons/si';
-import { FaCode, FaCss3Alt } from 'react-icons/fa';
+import { FaCode, FaCss3Alt, FaDatabase } from 'react-icons/fa';
 
 const skills = [
   { name: 'C Language', icon: SiC, color: '#A8B9CC' },
@@ -19,6 +19,7 @@ const skills = [
   { name: 'Next.js', icon: SiNextdotjs, color: '#FFFFFF' },
   { name: 'Node JS', icon: SiNodedotjs, color: '#339933' },
   { name: 'Supabase', icon: SiSupabase, color: '#3ECF8E' },
+  { name: 'MySQL', icon: FaDatabase, color: '#3ECF8E' },
   { name: 'Github', icon: SiGithub, color: '#d0d0d0ff' },
 ];
 
