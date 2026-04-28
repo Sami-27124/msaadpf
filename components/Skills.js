@@ -1,7 +1,7 @@
 "use client";
 import { motion } from 'framer-motion';
-import { SiC, SiCplusplus, SiHtml5, SiJavascript, SiTailwindcss, SiMongodb, SiExpress, SiReact, SiNodedotjs, SiNextdotjs, SiSupabase, SiGithub, SiPhp, SiWordpress} from 'react-icons/si';
-import { FaCode, FaCss3Alt, FaDatabase, FaPython } from 'react-icons/fa';
+import { SiC, SiCplusplus, SiHtml5, SiJavascript, SiTypescript, SiTailwindcss, SiBootstrap, SiMongodb, SiExpress, SiReact, SiNodedotjs, SiNextdotjs, SiSupabase, SiGithub, SiPhp, SiWordpress} from 'react-icons/si';
+import { FaCode, FaCss3Alt, FaDatabase, FaPython, FaServer } from 'react-icons/fa';
 
 const skills = [
   { name: 'C Language', icon: SiC, color: '#A8B9CC' },
@@ -11,9 +11,11 @@ const skills = [
   { name: 'HTML', icon: SiHtml5, color: '#E34F26' },
   { name: 'CSS', icon: FaCss3Alt, color: '#1572B6' },
   { name: 'JavaScript', icon: SiJavascript, color: '#F7DF1E' },
+  { name: 'TypeScript', icon: SiTypescript, color: '#3178C6' },
   { name: 'PHP', icon: SiPhp, color: '#777BB4' },
   { name: 'WordPress', icon: SiWordpress, color: '#21759B' },
   { name: 'Tailwind CSS', icon: SiTailwindcss, color: '#06B6D4' },
+  { name: 'Bootstrap', icon: SiBootstrap, color: '#7952B3' },
   { name: 'MongoDB', icon: SiMongodb, color: '#47A248' },
   { name: 'Express JS', icon: SiExpress, color: '#FFFFFF' },
   { name: 'React JS', icon: SiReact, color: '#61DAFB' },
@@ -22,6 +24,7 @@ const skills = [
   { name: 'Supabase', icon: SiSupabase, color: '#3ECF8E' },
   { name: 'MySQL', icon: FaDatabase, color: '#3ECF8E' },
   { name: 'Github', icon: SiGithub, color: '#d0d0d0ff' },
+  { name: 'Rest API', icon: FaServer, color: '#6C757D' },
 ];
 
 export default function Skills() {
