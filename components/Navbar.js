@@ -19,7 +19,7 @@ export default function Navbar() {
       className={`navbar ${scrolled ? 'scrolled' : ''}`}
     >
       <div className="nav-content">
-        <div className="logo">Saad<span className="dot">.</span></div>
+        <div className="logo">Saad<span className="dot">.me</span></div>
         
         <div className={`hamburger ${menuOpen ? 'active' : ''}`} onClick={() => setMenuOpen(!menuOpen)}>
           <div></div><div></div><div></div>
@@ -31,7 +31,7 @@ export default function Navbar() {
           <li><a href="#experience" onClick={() => setMenuOpen(false)}>Experience</a></li>
           <li><a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a></li>
           <li><a href="#about" onClick={() => setMenuOpen(false)}>About Me</a></li>
-          <li><a href="#contact" className="nav-btn" onClick={() => setMenuOpen(false)}>Contact</a></li>
+          <li><a href="#contact" className="nav-btn" onClick={() => setMenuOpen(false)}>Hire Me</a></li>
         </ul>
       </div>
     </motion.nav>

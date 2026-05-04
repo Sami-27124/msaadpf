@@ -25,7 +25,10 @@ export default function Hero() {
             <a href="https://www.fiverr.com/saadi804" target="_blank" rel="noreferrer" className="social-icon" title="Fiverr"><SiFiverr /></a>
             <a href="mailto:saad.procoder@gmail.com" className="social-icon"><FaEnvelope /></a>
           </div>
-          <a href="#contact" className="cta-btn">Let's Talk</a>
+          <div className='links'>
+            <a href="#contact" className="cta-btn">Let's Talk</a>
+            <a href="/Saad-Resume.pdf" target='_blank' className="cta-btn">View Resume</a>
+          </div>
         </motion.div>
 
         <motion.div

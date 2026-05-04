@@ -38,7 +38,7 @@ export default function Experience() {
             <div className="timeline-icon"><FaBriefcase /></div>
             <div className="timeline-content">
               <h3>Full Stack Web Developer</h3>
-              <span className="timeline-date">Jan 2025 – Present | Freelance / Personal Projects</span>
+              <span className="timeline-date">Jan 2025 – Present | Freelance </span>
               <ul>
                 <li>Built and deployed high-performance full-stack apps using MERN and Next.js</li>
                 <li>Leveraged Supabase and MongoDB for scalable database solutions</li>
@@ -57,7 +57,7 @@ export default function Experience() {
           >
             <div className="timeline-icon"><FaGraduationCap /></div>
             <div className="timeline-content">
-              <h3>Frontend Developer (Intern)</h3>
+              <h3>Frontend Developer </h3>
               <span className="timeline-date">Jun 2024 – Dec 2025 | Self-Led Projects</span>
               <ul>
                 <li>Developed responsive websites using HTML, CSS, and JavaScript</li>
